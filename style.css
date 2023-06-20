@@ -1,0 +1,53 @@
+.main-style {
+    margin: 0;
+    color: #7680AE;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;   
+}
+#hero {
+    background-image: url(img/galaxy.gif);
+    background-size:cover;
+    padding: 10px 0 40px 0 ;
+}
+
+#main-logo {
+    width: 250px; height: 100px;
+}
+
+#title {
+    text-shadow: 4px 4px 4px rgb(255, 0, 0);
+}
+
+/* Adding downloaded font*/
+@font-face {
+    font-family: fa;
+    src: url(LifeCraft_Font.ttf);
+}
+h2{
+    font-family: fa;
+    font-size: 90px;
+    color: goldenrod;
+}
+.btn {
+    margin-bottom: 10px;
+    color: #7680AE;
+    font-size: xx-large;
+    font-weight: bold;
+    background: #ebebeb;
+    border: none;
+    font-family: inherit;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
+h3 { font-size: x-large;}
+
+.term-font {
+    color: blanchedalmond;
+    font-size: 50px;
+    text-align: center;
+    background-image: url(img/200w.webp);
+    background-size: cover;
+    margin: 0;
+}
